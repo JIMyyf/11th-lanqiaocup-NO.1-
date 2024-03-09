@@ -1,0 +1,27 @@
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/19308/Desktop/Keil 5-project/11th-lanqiaocup1/MDK-ARM/tmp/Project/Project/CMakeFiles/CMakeScratch/TryCompile-un1g98
+
+Run Build Command(s):C:/Users/19308/.vcpkg/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_82681 && [1/2] Building C object CMakeFiles\cmTC_82681.dir\CMakeCCompilerABI.c.obj
+FAILED: CMakeFiles/cmTC_82681.dir/CMakeCCompilerABI.c.obj 
+c:\Users\19308\.vcpkg\artifacts\2139c4c6\compilers.arm.armclang\6.21.0\bin\armclang.exe   -mcpu=Cortex-M4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -o CMakeFiles\cmTC_82681.dir\CMakeCCompilerABI.c.obj -c C:\Users\19308\.vcpkg\artifacts\vcpkg-ce-default\tools.kitware.cmake\3.25.2\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/19308/Desktop/Keil 5-project/11th-lanqiaocup1/MDK-ARM/tmp/Project/Project/CMakeFiles/CMakeScratch/TryCompile-0l0s72
+
+Run Build Command(s):C:/Users/19308/.vcpkg/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_fdda9 && [1/2] Building C object CMakeFiles\cmTC_fdda9.dir\testCCompiler.c.obj
+FAILED: CMakeFiles/cmTC_fdda9.dir/testCCompiler.c.obj 
+c:\Users\19308\.vcpkg\artifacts\2139c4c6\compilers.arm.armclang\6.21.0\bin\armclang.exe   -mcpu=Cortex-M4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -o CMakeFiles\cmTC_fdda9.dir\testCCompiler.c.obj -c "C:\Users\19308\Desktop\Keil 5-project\11th-lanqiaocup1\MDK-ARM\tmp\Project\Project\CMakeFiles\CMakeScratch\TryCompile-0l0s72\testCCompiler.c"
+armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+ninja: build stopped: subcommand failed.
+
+
+
